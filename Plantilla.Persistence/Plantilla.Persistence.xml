@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>plantilla.Persistence</name>
+    </assembly>
+    <members>
+        <member name="F:plantilla.Persistence.plantillaContext.cookie">
+            <summary>
+            Alamcena el Token/cookie del rol de aplicacion ejecutado
+            </summary>
+        </member>
+        <member name="F:plantilla.Persistence.Repositories.ConsultarEstadoplantillainTarjetaRepository._logger">
+            <summary>
+            importa el DbContexto
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:plantilla.Persistence.Repositories.OpcionDeFinanciacionRepository">
+            <summary>
+            Persistencia para permiso del repositorio
+            </summary>
+        </member>
+        <member name="F:plantilla.Persistence.Repositories.OpcionDeFinanciacionRepository._logger">
+            <summary>
+            importa el DbContexto
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:plantilla.Persistence.Repositories.OpcionDeFinanciacionRepository.GetOpcionesDeFinanciacion(System.String,System.String,System.Double,System.Int32)">
+            <summary>
+            Devuelve un proceso estado de negocio segun el id
+            </summary>
+            <paramref name="importe"/>
+            <paramref name="sueldo"/>
+            <paramref name="totalDeDias"/>
+            <paramref name="cedula"/>
+            <returns>Retorna la tabla de proceso estado de negocio.</returns>
+        </member>
+        <member name="T:plantilla.Persistence.UnitOfWork">
+            <summary>
+            Clase para persistir los cambios 
+            de la data en la BD
+            </summary>
+        </member>
+        <member name="M:plantilla.Persistence.UnitOfWork.#ctor(plantilla.Persistence.plantillaContext,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILoggerFactory,Common.Utils.Redirecccionamiento.Calls)">
+            <summary>
+            Constructor que recibe el contexto de base 
+            de datos e inicializa los repositorios
+            </summary>
+            <param name="context">Contexto de base de datos</param>
+        </member>
+        <member name="M:plantilla.Persistence.UnitOfWork.Complete">
+            <summary>
+            Método para persistir los cambios de
+            las colecciones en la base de datos
+            </summary>
+            <returns>Valor entero resultado de la operación</returns>
+        </member>
+    </members>
+</doc>

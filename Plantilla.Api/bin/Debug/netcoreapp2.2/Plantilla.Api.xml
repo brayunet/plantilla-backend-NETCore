@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>plantilla.Api</name>
+    </assembly>
+    <members>
+        <member name="T:plantilla.Api.Graphql.Queries.Query">
+            <summary>
+            Operaciones de consultas
+            </summary>
+        </member>
+        <member name="F:plantilla.Api.Graphql.Queries.Query._httpContextAccessor">
+            <summary>
+            Representa el contexto en el cual fue llamado el middleware. Deberia ser inyectado.
+            </summary>        
+        </member>
+        <member name="F:plantilla.Api.Graphql.Queries.Query._config">
+            <summary>
+            Representa la configuracion del servicio. Deberia ser inyectado.
+            </summary>
+        </member>
+        <member name="F:plantilla.Api.Graphql.Queries.Query._Cliente">
+            <summary>
+            Representa la instancia de un calls para hacer llamados externos a rest y graphql
+            </summary>
+        </member>
+        <member name="F:plantilla.Api.Graphql.Queries.Query._logger">
+            <summary>
+            Representa la instancia del logger
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetOpcionesDeFinanciacion(System.String,System.String,System.Double,System.Int32)">
+            <summary>
+            Obtener todas las obciones de financiacion
+            </summary>
+            <returns>Listado de mï¿½dulos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetConsultarEstadoplantillainTarjetas(System.Int64)">
+            <summary>
+            Obtener todas las obciones de financiacion
+            </summary>
+            <returns>Listado de mï¿½dulos</returns>
+        </member>
+        <member name="T:plantilla.Api.Graphql.Queries.QueryType">
+            <summary>
+            Operaciones de consultas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ConsultarEstadoplantillainTarjetaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.DbQueries.ConsultarEstadoplantillainTarjeta})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.OpcionDeFinanciacionType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.DbQueries.OpcionDeFinanciacion})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Startup">
+            <summary>
+            Configura los servicios y la canalización de solicitudes de la aplicación
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Representa un conjunto de propiedades de configuración de la aplicación de clave y valor.
+            </summary>
+            <param name="configuration">Configuraciones</param>
+        </member>
+        <member name="M:plantilla.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configuraciones del servicio
+            </summary>
+            <param name="services">Coleccion de Servicios</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,98 @@
+[
+			{
+				"Id": "3",
+				"Codigo": "",
+				"Descripcion": "PERMITE GESTIONAR PROCESOS",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664501",
+				"Nombre": "",
+				"NombrePermiso": "PrcEditarProceso",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "4",
+				"Codigo": "",
+				"Descripcion": "PERMITE MODIFICAR MENSAJES DE TRANSICION",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664583",
+				"Nombre": "",
+				"NombrePermiso": "PrcEditarMensajeTransicion",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "12",
+				"Codigo": "P-00012",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664633",
+				"Nombre": "permiso",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "13",
+				"Codigo": "permiso",
+				"Descripcion": "hacer algo",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664683",
+				"Nombre": "nombre",
+				"NombrePermiso": "prc_hacer_algo",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "14",
+				"Codigo": "codigo",
+				"Descripcion": "algo",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664732",
+				"Nombre": "nombre",
+				"NombrePermiso": "permiso",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "15",
+				"Codigo": "COD",
+				"Descripcion": "ALGO",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664781",
+				"Nombre": "NOM",
+				"NombrePermiso": "PERMI",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "16",
+				"Codigo": "per-02",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664831",
+				"Nombre": "permiso",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "17",
+				"Codigo": "",
+				"Descripcion": "PERMITE GESTIONAR DEPENDENCIAS",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664880",
+				"Nombre": "",
+				"NombrePermiso": "PrcEditarDependencia",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "18",
+				"Codigo": "",
+				"Descripcion": "PERMITE GESTIONAR PERSONAL",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664929",
+				"Nombre": "",
+				"NombrePermiso": "PrcEditarPersonal",
+				"ProyectoId": "5"
+			},
+			{
+				"Id": "19",
+				"Codigo": "",
+				"Descripcion": "PERMITE GESTIONAR UNIDADES",
+				"Estado": 1,
+				"FechaCreacion": "2019-12-10T16:39:45.2664979",
+				"Nombre": "",
+				"NombrePermiso": "PrcEditarUnidades",
+				"ProyectoId": "5"
+			}
+		]

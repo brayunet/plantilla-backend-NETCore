@@ -1,0 +1,3207 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>plantilla.Api</name>
+    </assembly>
+    <members>
+        <member name="T:GraphAuth.Graphql.Events.OnCrearEnvioMessage">
+            <summary>
+            Clase para el envío de mensajes
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.InputTypes.ActividadInputType.Configure(HotChocolate.Types.IInputObjectTypeDescriptor{plantilla.Core.Models.Actividad})">
+            <summary>
+            Objeto de entrada de tipo actividad
+            </summary>
+            <param name="descriptor"></param>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ActividadNotificacionInputType">
+            <summary>
+            Objeto de entrada de tipo ActividadNotificacion
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ActividadTransicionMensajeInputType">
+            <summary>
+            Objeto actividad transición mensaje
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.AlcanceNotificacionInputType">
+            <summary>
+            Objeto de entrada de tipo alcance notificación 
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.AmbitoMedioInputType">
+            <summary>
+            Objeto de entrada de tipo ámbito medio
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.AreaInputType">
+            <summary>
+            Objeto de entrada de tipo área
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.AreaUsuarioInputType">
+            <summary>
+            Objeto de entrada de tipo área usuario
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.CampoNegocioInputType">
+            <summary>
+            Objeto de entrada de tipo campo negocio
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.CatalogoDinamicoInputType">
+            <summary>
+            Objeto de entrada de tipo catálogo dinámico
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ClasificacionProcesoInputType">
+            <summary>
+            Objeto de entrada de tipo clasificación proceso
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ClasificacionRolInputType">
+            <summary>
+            Objeto de entrada de tipo clasificación rol
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ColumnaInputType">
+            <summary>
+            Objeto de entrada de tipo columna
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.CondicionInputType">
+            <summary>
+            Objeto de entrada de tipo comndición
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.DependenciaInputType">
+            <summary>
+            Objeto de entrada de tipo dependencia
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.EnvioInputType">
+            <summary>
+            Objeto de entrada de tipo envío
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.EstadoInputType">
+            <summary>
+            Objeto de entrada de tipo estado
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.EstadosActividadInputType">
+            <summary>
+            Objeto de entrada de tipo estados actividad
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.EstadosNegocioActividadInputType">
+            <summary>
+            Objeto de entrada de tipo estados negocio actividad
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.EstadosNegocioInstanciaInputType">
+            <summary>
+            Objeto de entrada de tipo estado negocio instancia
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.EventoplantillaInputType">
+            <summary>
+            Objeto de entrada de tipo Evento
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.IdentificadorClienteInputType">
+            <summary>
+            Objeto de entrada de tipo identificador cliente
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ListaValorInputType">
+            <summary>
+            Objeto de entrada de tipo lista valor
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ModuloInputType">
+            <summary>
+            Objeto de entrada de tipo módulo
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.NotificacionInputType">
+            <summary>
+            Objeto de entrada de tipo notificación
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.OrdenBandejaInputType">
+            <summary>
+            Objeto de entrada de tipo orden bandeja
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.PermisoInputType">
+            <summary>
+            Objeto de entrada de tipo permiso
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.PermisoTareaInputType">
+            <summary>
+            Objeto de entrada de tipo permiso tarea
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.PermisoTareaRolInputType">
+            <summary>
+            Objeto de entrada de tipo permiso tarea rol
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.PrecondicionInputType">
+            <summary>
+            Objeto de entrada de tipo precondición
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ProcesoInputType">
+            <summary>
+            Objeto de entrada de tipo proceso
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ProgramaInputType">
+            <summary>
+            Objeto de entrada de tipo programa
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.RangoDuracionInputType">
+            <summary>
+            Objeto de entrada de tipo rango duración
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.RangoFechaInputType">
+            <summary>
+            Objeto de entrada de tipo rango fecha
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ReglaNegocioInputType">
+            <summary>
+            Objeto de entrada de tipo regla negocio
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ReglaNegocioParametroInputType">
+            <summary>
+            Objeto de entrada de tipo regla negocio parametro
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ReglaNegocioParametroRolInputType">
+            <summary>
+            Objeto de entrada de tipo regla negocio parametro rol
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.RolInputType">
+            <summary>
+            Objeto de entrada de tipo rol
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.RolModuloInputType">
+            <summary>
+            Objeto de entrada de tipo rol módulo
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.SectorInputType">
+            <summary>
+            Objeto de entrada de tipo sector
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.SectorusuarioInputType">
+            <summary>
+            Objeto de entrada de tipo sector usuario
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.TareaEnlaceInputType">
+            <summary>
+            Objeto de entrada de tipo tarea
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.TareaInputType">
+            <summary>
+            Objeto de entrada de tipo tarea
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.TareaSuscripcionTipoEventoInputType">
+            <summary>
+            Objeto de entrada de tipo TareaSuscripcionTipoEvento
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.TipoEventoInputType">
+            <summary>
+            Objeto de entrada de tipo Evento
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.TransicionInputType">
+            <summary>
+            Objeto de entrada de tipo transición
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.TransicionMensajeAmbitoMedioInputType">
+            <summary>
+            Objeto de entrada de tipo transición mensaje ámbito medio
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.TransicionMensajeInputType">
+            <summary>
+            Objeto de entrada de tipo transición mensaje
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.UnidadInputType">
+            <summary>
+            Objeto de entrada de tipo unidad
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.UsuarioActividadInputType">
+            <summary>
+            Objeto de entrada de tipo usuario actividad
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.UsuarioEstadoUsuarioInputType">
+            <summary>
+            Objeto de entrada de tipo usuario estado usuario
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.UsuarioInputType">
+            <summary>
+            Objeto de entrada de tipo usuario
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.UsuarioNotificacionesInputType">
+            <summary>
+            Objeto de entrada de tipo envío
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.UsuarioRolInputType">
+            <summary>
+            Objeto de entrada de tipo usuario rol
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.UsuarioSucursalInputType">
+            <summary>
+            Objeto de entrada de tipo usuario sucursal
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.InputTypes.ValoresFiltroInputType">
+            <summary>
+            Objeto de entrada de tipo valores filtro
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.Mutations.Mutation">
+            <summary>
+            Operaciones para guardar, modificar y eliminar registros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.#ctor(plantilla.Core.IUnitOfWork,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{plantilla.Api.Graphql.Mutations.Mutation},Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Instancias de configuración
+            </summary>
+            <param name="unitOfWork"></param>
+            <param name="httpContextAccessor"></param>
+            <param name="logger"></param>
+            <param name="config"></param>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearArea(plantilla.Core.Models.Area)">
+            <summary>
+            Crear area
+            </summary>
+            <param name="area">Nueva area</param>
+            <returns>area creada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarAreaAsync(System.Int64,plantilla.Core.Models.Area)">
+            <summary>
+            Modificar un area
+            </summary>
+            <param name="id">Id del area</param>
+            <param name="area">Datos del area</param>
+            <returns>area modificada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarActividadEnBandejasAsync(System.Int64,plantilla.Core.Models.Actividad)">
+            <summary>
+            Modificar una Actividad
+            </summary>
+            <param name="id">Id de la actividad</param>
+            <param name="actividad">Datos de la actividad</param>
+            <returns>actividad modificada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearModulo(plantilla.Core.Models.Modulo)">
+            <summary>
+            Crear modulo
+            </summary>
+            <param name="modulo">Nuevo Modulo</param>
+            <returns>modulo creado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarModuloAsync(System.Int64,plantilla.Core.Models.Modulo)">
+            <summary>
+            Modificar un modulo
+            </summary>
+            <param name="id">Id del modulo</param>
+            <param name="modulo">Datos del Modulo</param>
+            <returns>modulo modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CargarUsuario(plantilla.Core.Models.Usuario)">
+            <summary>
+            Carga nuevo usuario en la bandeja para ser  tomado por el personal de soporte
+            </summary>
+            <param name="usuario">Nuevo usuario</param>
+            <returns>usuario cargado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearUsuarioplantilla(plantilla.Core.Models.Usuario,System.Int64,System.Boolean)">
+            <summary>
+            Crear un nuevo usuario en la plataforma plantilla cuando 
+            ya existe en el LDAP
+            </summary>
+            <param name="usuario">Nuevo usuario</param>
+            <returns>usuario creado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.GenerarCodigoSeguridadUsuario(System.Int64,System.String)">
+            <summary>
+            Generar el código de seguridad de usuario aleatorio para el registro de la contraseña de usuario
+            <param name="usuarioId">Nuevo usuario</param>
+            <param name="soportePassword">Password de Autenticacion del usuario de soporte</param>
+            
+            </summary>
+            <returns>Código de Seguridad de usuario</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.SolicitarReintegroUsuario(System.Int64)">
+            <summary>
+            Procesar la solicitud de reintero de un 
+            <param name="usuarioReintegroId">Id del usuario a reintetgrar</param>
+            </summary>
+            <returns>C</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.SolicitarBajaUsuario(System.Int64)">
+            <summary>
+            Procesar la solicitud de reintero de un usuario
+            <param name="usuarioBajaId">Nuevo usuario</param>
+            </summary>
+            <returns>C</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ProcesarEliminarUsuarioLdap(System.Int64,System.Int64)">
+            <summary>
+            Procesar la solicitud de reintero de un 
+<<<<<<< HEAD
+            <param name="usuarioBajaId">Nuevo usuario</param>
+=======
+            <param name="usuarioBorradoId">Id del usuario a reintetgrar</param>
+            </summary>
+            <returns>C</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ProcesarReintegroUsuario(System.Int64,System.Int64)">
+            <summary>
+            Procesar la solicitud de reintero de un 
+            <param name="usuarioReintegroId">Id del usuario a reintetgrar</param>
+>>>>>>> generar-codigos-seguridad
+            </summary>
+            <returns>C</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.GenerarCodigoSeguridadSupervisor(System.Int64)">
+            <summary>
+            Generar el código de seguridad de supervisor aleatorio para el registro de la contraseña de usuario
+            <param name="usuarioId">Nuevo usuario</param>
+            </summary>
+            <returns>C</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarUsuarioAsync(System.Int64,plantilla.Core.Models.Usuario)">
+            <summary>
+            Modificar un usuario
+            </summary>
+            <param name="id">Id del usuario</param>
+            <param name="usuario">Datos del usuario</param>
+            <returns>usuario modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CambiarEstadoUsuario(System.Int64,Common.Utils.CustomTypes.EstadosUsuario)">
+            <summary>
+            Asigna un estado al usuario
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="estadoUsuario">Id del estado usuario</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.SuspenderUsuario(System.Int64,System.DateTime,System.Nullable{System.DateTime})">
+            <summary>
+            Programar una suspensión de usuario
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="fechaActivacion">Fecha de activación de la suspensión usuario</param>
+            <param name="fechaDesactivacion">Fecha de desactivación de la suspensión usuario</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarSuspensionUsuario(System.Int64,System.DateTime,System.Nullable{System.DateTime})">
+            <summary>
+            Modificar el estado de suspensión del usuario
+            </summary>
+            <param name="id">Id del usuario</param>
+            <param name="fechaActivacion">Fecha de activación de la suspensión usuario</param>
+            <param name="fechaDesactivacion">Fecha de desactivación de la suspensión usuario</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarSuspensionUsuario(System.Int64)">
+            <summary>
+            Eliminar el estado de suspensión del usuario
+            </summary>
+            <param name="id">Id del usuario</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearPermiso(plantilla.Core.Models.Permiso)">
+            <summary>
+            Crear permiso
+            </summary>
+            <param name="permiso">Datos de permiso</param>
+            <returns>Permiso creado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarPermiso(System.Int64,plantilla.Core.Models.Permiso)">
+            <summary>
+            Modificar un permiso
+            </summary>
+            <param name="id">Id del permiso</param>
+            <param name="permiso">Datos del permiso</param>
+            <returns>permiso modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarPermisoLista(System.Int64,System.Collections.Generic.List{System.Int64})">
+            <summary>
+            Asociar los permisos a un programa
+            </summary>
+            <param name="idPrograma">Id del programa</param>
+            <param name="listadoPermisos">Vector de Id de Datos del permiso</param>
+            <returns>permiso modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearPermisoTareaRol(plantilla.Core.Models.PermisoTareaRol)">
+            <summary>
+            Crear permiso tarea rol
+            </summary>
+            <param name="permisoTareaRol">Nuevo permiso Tarea Rol</param>
+            <returns>nuevo rol a permiso tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarPermisoTareaRol(System.Int64,plantilla.Core.Models.PermisoTareaRol)">
+            <summary>
+            Modificar un permiso tarea rol
+            </summary>
+            <param name="id">Id del permiso</param>
+            <param name="permisoTareaRol">Datos del permiso tarea Rol</param>
+            <returns>permiso tarea modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarPermisoTareaRol(System.Int64,System.Int64)">
+            <summary>
+            eliminar permiso tarea rol
+            </summary>
+            <param name="id">Id de permisoTareaRol</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EstadoRolModulo(System.Int64,System.Int64,System.Boolean,System.Int32)">
+            <summary>
+            Asignar un rol a un módulo 
+            </summary>
+            <param name="moduloId">Id del modulo</param>
+            <param name="rolId">Id del rol</param>
+            <param name="estado">Si se activó o desactivó el control check en la vista</param>
+            <param name="ciclo">Variable que permite conocer los ancestros del módulo</param>
+            <returns>listado de rol modulo asignados</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarRolModulo(System.Int64,plantilla.Core.Models.RolModulo)">
+            <summary>
+            Modificar rol módulo
+            </summary>
+            <param name="id">id del rol modulo</param>
+            <param name="rolModulo">Nuevo rol modulo</param>
+            <returns>rol modulo modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarRolModulo(System.Int64,System.Int64)">
+            <summary>
+            eliminar rol modulo
+            </summary>
+            <param name="rolId">Id del rol</param>
+            <param name="moduloId">Id del modulo</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearUsuarioSucursal(System.Int64,System.Int64)">
+            <summary>
+            Asignar una sucursal a un usuario
+            </summary>
+            <param name="usuarioId">Id de usuario</param>
+            <param name="sucursalId">Código de la sucursal</param>
+            <returns>Mensaje de éxito o error</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarUsuarioSucursal(System.Int64,System.Int64)">
+            <summary>
+            Eliminar sucursal asignada a usuario
+            </summary>
+            <param name="usuarioId">Código de la sucursal</param>
+            <param name="sucursalId">Id del usuario</param>
+            <returns>Mensaje de éxito o error</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CopiarPermisoTarea(System.Int64,System.Collections.Generic.List{System.Int64},System.Int64)">
+            <summary>
+            Copiar permisos de una tarea a otra
+            </summary>
+            <param name="tareaOrigen"></param>
+            <param name="permisosId"></param>
+            <param name="tareaDestino"></param>
+            <returns>Mensaje de éxito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearPermisoTarea(plantilla.Core.Models.PermisoTarea)">
+            <summary>
+            Crear permiso a una tarea
+            </summary>
+            <param name="permisoTarea">Nuevo permiso Tarea</param>
+            <returns>nuevo permiso tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarPermisoTarea(System.Int64,plantilla.Core.Models.PermisoTarea)">
+            <summary>
+            Modificar un permiso de una tarea
+            </summary>
+            <param name="id">Id del permiso</param>
+            <param name="permisoTarea">Datos del permiso tarea</param>
+            <returns>permiso tarea modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearColumnaTarea(plantilla.Core.Models.Columna)">
+            <summary>
+            Crear columna a una tarea
+            </summary>
+            <param name="columna">Nuevo columna</param>
+            <returns>nuevo permiso tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarColumnaTarea(System.Int64,plantilla.Core.Models.Columna)">
+            <summary>
+            Modificar un columna de una tarea
+            </summary>
+            <param name="id">Id de la tarea</param>
+            <param name="columna">Datos de la columna</param>
+            <returns>columna modificada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarColumnaTarea(System.Int64)">
+            <summary>
+            eliminar columna asociada a una tarea
+            </summary>
+            <param name="id">Id de la columna</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearReglaNegocio(plantilla.Core.Models.ReglaNegocio)">
+            <summary>
+            Crear una regla de negocio
+            </summary>
+            <param name="reglaNegocio">Nuevo permiso Tarea</param>
+            <returns>nuevo regla de negocio</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarReglaNegocio(System.Int64,plantilla.Core.Models.ReglaNegocio)">
+            <summary>
+            Modificar una regla de negocio
+            </summary>
+            <param name="id">Id de la regla de negocio</param>
+            <param name="reglaNegocio">Datos de la regla de negocio</param>
+            <returns>regla de negocio modificada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearListaValor(System.Collections.Generic.List{plantilla.Core.Models.ListaValor})">
+            <summary>
+            asignar una nueva lista valor a una columna
+            </summary>
+            <param name="listaValor">lista valor</param>
+            <returns>la lista de valores recién creada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarCatalogoDinamicoPorColumna(System.Int64)">
+            <summary>
+            Eliminar registros de catálogo dinámico por columna
+            </summary>
+            <param name="columnaId">Id de la columna</param>
+            <returns>la cantidad de registros eliminados</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarListaValorPorColumna(System.Int64)">
+            <summary>
+            Eliminar registros de lista valor por columna
+            </summary>
+            <param name="columnaId">Id de la columna</param>
+            <returns>Cantidad de registros eliminados</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarListaValorColumna(System.Int64,plantilla.Core.Models.ListaValor)">
+            <summary>
+            modificar lista valor a una columna
+            </summary>
+            <param name="id">Id de la lista valor</param>
+            <param name="listaValor">Datos de la lista valor</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarListaValorColumna(System.Int64,plantilla.Core.Models.ListaValor)">
+            <summary>
+            eliminar lista valor asignada a una columna
+            </summary>
+            <param name="id">Id de la lista valor</param>
+            <param name="listaValor">Datos de la lista valor</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarCatalogoDinamicoColumna(plantilla.Core.Models.CatalogoDinamico)">
+            <summary>
+            asignar catalogo dinámico a una columna
+            </summary>
+            <param name="catalogoDinamico">Id del responsable</param>
+            <returns>Mensaje de exito</returns>        
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarCatalogoDinamicoColumna(System.Int64,plantilla.Core.Models.CatalogoDinamico)">
+            <summary>
+            modificar catalogo dinámico a una columna
+            </summary>
+            <param name="id">Id del responsable</param>
+            <param name="catalogoDinamico">Datos del catálogo dinámico</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarCatalogoDinamicoColumna(System.Int64,plantilla.Core.Models.CatalogoDinamico)">
+            <summary>
+            eliminar catalogo dinámico asignado a una columna
+            </summary>
+            <param name="id">Id del catalogo</param>
+            <param name="catalogoDinamico">Datos del catálogo dinámico</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarPermisoTareaPermiso(System.Int64,System.Int64)">
+            <summary>
+            asignar permiso una coleccion de tareas
+            </summary>
+            <param name="permisoId">Id de la unidad</param>
+            <param name="permisoTareaId">Id del responsable</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarPermisoTareaPermiso(System.Int64,System.Collections.Generic.List{System.Int64})">
+            <summary>
+            eliminar permisos asignados a una coleccion de tareas
+            </summary>
+            <param name="permisoTareaId">id de la tarea</param>
+            <param name="permisosId">vector ID permisos  </param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarDependencia(System.Int64)">
+            <summary>
+            eliminar dependencias
+            </summary>
+            <param name="id">vector ID permisos</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarParametroReglaNegocio(plantilla.Core.Models.ReglaNegocioParametro)">
+            <summary>
+            asignar parametro a una coleccion de reglas de negocio
+            </summary>
+            <param name="parametro">descripcion del parametro a asignar</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarReglaNegocioParametro(System.Int64,plantilla.Core.Models.ReglaNegocioParametro)">
+            <summary>
+            modificar parametro a una coleccion de reglas de negocio
+            </summary>
+            <param name="id">id del parametro</param>
+            <param name="reglaNegocioParmetro">parametro a modificar</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarReglaNegocioParametroRol(plantilla.Core.Models.ReglaNegocioParametroRol)">
+            <summary>
+            asignar regla negocio parametro rol
+            </summary>
+            <param name="reglaNegocioParametroRol">objeto reglaNegocioParametro</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarReglaNegocioParametroRol(System.Int64,plantilla.Core.Models.ReglaNegocioParametroRol)">
+            <summary>
+            modificar un parametro y un rol a una coleccion de reglas de negocio
+            </summary>
+            <param name="id">id del parametro</param>
+            <param name="reglaNegocioParmetroRol">reglaNegocioParametro a modificar</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearProceso(plantilla.Core.Models.Proceso)">
+            <summary>
+            Crear proceso
+            </summary>
+            <param name="proceso">Nuevo proceso</param>
+            <returns>nuevo proceso</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarProceso(System.Int64,plantilla.Core.Models.Proceso)">
+            <summary>
+            Modificar un proceso
+            </summary>
+            <param name="id">Id del proceso</param>
+            <param name="proceso">Datos del proceso</param>
+            <returns>proceso modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarProceso(System.Int64)">
+            <summary>
+            Eliminar un proceso
+            </summary>
+            <param name="id">Id del proceso</param>
+            <returns>Mensaje de éxito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearPrograma(plantilla.Core.Models.Programa)">
+            <summary>
+            Crear programa
+            </summary>
+            <param name="programa">Nuevo programa</param>
+            <returns>nuevo programa</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarPrograma(System.Int64,plantilla.Core.Models.Programa)">
+            <summary>
+            Modificar un programa
+            </summary>
+            <param name="id">Id del programa</param>
+            <param name="programa">Datos del programa</param>
+            <returns>programa modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearTarea(plantilla.Core.Models.Tarea)">
+            <summary>
+            Crear tarea
+            </summary>
+            <param name="tarea">Nueva tarea</param>
+            <returns>nuevo tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarTarea(System.Int64,plantilla.Core.Models.Tarea)">
+            <summary>
+            Modificar un tarea
+            </summary>
+            <param name="id">Id de la tarea</param>
+            <param name="tarea">Datos de la tarea</param>
+            <returns>tarea modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearTareaEnlace(plantilla.Core.Models.TareaEnlace)">
+            <summary>
+            Crear tarea enlace
+            </summary>
+            <param name="tareaEnlace">Nueva tarea enlace</param>
+            <returns>nuevo tarea enlace</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarTareaEnlace(System.Int64,plantilla.Core.Models.TareaEnlace)">
+            <summary>
+            Modificar tareaEnlace
+            </summary>
+            <param name="id">Id de la tarea</param>
+            <param name="tareaEnlace">Datos de la tareaEnlace</param>
+            <returns>tareaEnlace modificada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearEventoplantilla(plantilla.Core.Models.Eventoplantilla)">
+            <summary>
+            Crear nuevo evento de plantilla
+            </summary>
+            <param name="eventoplantilla">Nuevo evento de plantilla</param>
+            <returns>Nuevo evento de plantilla</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarEventoplantilla(System.Int64,plantilla.Core.Models.Eventoplantilla)">
+            <summary>
+            Modificar un evento
+            </summary>
+            <param name="id">Id del evento</param>
+            <param name="eventoplantilla">Datos del evento</param>
+            <returns>evento modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearTipoEvento(plantilla.Core.Models.TipoEvento)">
+            <summary>
+            Crear nuevo tipo de eventos
+            </summary>
+            <param name="tipoEvento">Nuevo tipo de evento</param>
+            <returns>Nuevo tipo de evento</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarTipoEvento(System.Int64,plantilla.Core.Models.TipoEvento)">
+            <summary>
+            Modificar un tipo de evento
+            </summary>
+            <param name="id">Id del tipo de evento</param>
+            <param name="tipoEvento">Datos del tipo de evento</param>
+            <returns>tipo de evento modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarTipoEvento(System.Int64)">
+            <summary>
+            Eliminar TipoEvento
+            </summary>
+            <param name="id">Id del TipoEvento a eliminar</param>
+            <returns>mensaje</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearTareaSuscripcionTipoEvento(plantilla.Core.Models.TareaSuscripcionTipoEvento)">
+            <summary>
+            Crear nueva relacion Tarea - TipoEvento - Condición
+            </summary>
+            <param name="tareaSuscripcionTipoEvento">Nueva relacion Tarea - TipoEvento - Condición</param>
+            <returns>nueva relacion Tarea - TipoEvento - Condición</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarTareaSuscripcionTipoEvento(System.Int64,plantilla.Core.Models.TareaSuscripcionTipoEvento)">
+            <summary>
+            Modificar un TareaSuscripcionTipoEvento
+            </summary>
+            <param name="id">Id de la TareaSuscripcionTipoEvento</param>
+            <param name="tareaSuscripcionTipoEvento">Datos de la TareaSuscripcionTipoEvento</param>
+            <returns>TareaSuscripcionTipoEvento modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarTareaSuscripcionTipoEvento(System.Int64)">
+            <summary>
+            Eliminar tareaSuscripcionTipoEvento
+            </summary>
+            <param name="id">Id del tareaSuscripcionTipoEvento a eliminar</param>
+            <returns>mensaje</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearActividadNotificacion(plantilla.Core.Models.ActividadNotificacion)">
+            <summary>
+            Crear nueva notificación de actividad, por parte de un evento del plantilla
+            </summary>
+            <param name="actividadNotificacion">Nueva notificación de actividad, por parte de un evento del plantilla</param>
+            <returns>NuevA notificación de actividad, por parte de un evento del plantilla</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarActividadNotificacion(System.Int64,plantilla.Core.Models.ActividadNotificacion)">
+            <summary>
+            Modificar una ActividadNotificacion
+            </summary>
+            <param name="id">Id de la ActividadNotificacion</param>
+            <param name="actividadNotificacion">Datos de la ActividadNotificacion</param>
+            <returns>ActividadNotificacion modificada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearCondicion(plantilla.Core.Models.Condicion)">
+            <summary>
+            Crear condicion
+            </summary>
+            <param name="condicion">Nueva condicion</param>
+            <returns>nuevo condicion</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearClasificacionProceso(plantilla.Core.Models.ClasificacionProceso)">
+            <summary>
+            Crear ClasificacionProceso
+            </summary>
+            <param name="clasificacionProceso">Nueva ClasificacionProceso</param>
+            <returns>nueva clasificacion proceso</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarCondicion(System.Int64,plantilla.Core.Models.Condicion)">
+            <summary>
+            Modificar un condicion
+            </summary>
+            <param name="id">Id de la condicion</param>
+            <param name="condicion">Datos de la condicion</param>
+            <returns>condicion modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearClasificacionRol(plantilla.Core.Models.ClasificacionRol)">
+            <summary>
+            Crear clasificacionRol
+            </summary>
+            <param name="clasificacionRol">Nueva transicion</param>
+            <returns>nuevo transicion</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarClasificacionRol(System.Int64,plantilla.Core.Models.ClasificacionRol)">
+            <summary>
+            Modificar una clasificacion rol
+            </summary>
+            <param name="id">Id de la transicion</param>
+            <param name="clasificacionRol">Datos de la transicion</param>
+            <returns>transicion modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearTransicion(plantilla.Core.Models.Transicion)">
+            <summary>
+            Crear transicion
+            </summary>
+            <param name="transicion">Nueva transicion</param>
+            <returns>nuevo transicion</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarTransicion(System.Int64,plantilla.Core.Models.Transicion)">
+            <summary>
+            Modificar un transicion
+            </summary>
+            <param name="id">Id de la transicion</param>
+            <param name="transicion">Datos de la transicion</param>
+            <returns>transicion modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarTransicion(System.Int64)">
+            <summary>
+            Eliminar una transicion
+            </summary>
+            <param name="id">Id de la transicion</param>
+            <returns>Mensaje de éxito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearTransicionMensaje(plantilla.Core.Models.TransicionMensaje)">
+            <summary>
+            Crear transicion mensaje
+            </summary>
+            <param name="transicionMensaje">Nueva transicion mensaje</param>
+            <returns>nuevo transicion</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarTransicionMensaje(System.Int64,plantilla.Core.Models.TransicionMensaje)">
+            <summary>
+            Modificar un transicion mensaje
+            </summary>
+            <param name="id">Id de la transicion mensaje</param>
+            <param name="transicionMensaje">Datos de la transicion mensaje</param>
+            <returns>transicion modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearDependencia(plantilla.Core.Models.Dependencia)">
+            <summary>
+            Crear dependencia
+            </summary>
+            <param name="dependencia">Nueva dependencia</param>
+            <returns>nuevo dependencia</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarDependencia(System.Int64,plantilla.Core.Models.Dependencia)">
+            <summary>
+            Modificar un dependencia
+            </summary>
+            <param name="id">Id de la dependencia</param>
+            <param name="dependencia">Datos de la dependencia</param>
+            <returns>dependencia modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearUnidad(plantilla.Core.Models.Unidad)">
+            <summary>
+            Crear unidad
+            </summary>
+            <param name="unidad">Nueva unidad</param>
+            <returns>nuevo unidad</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarUnidad(System.Int64,plantilla.Core.Models.Unidad)">
+            <summary>
+            Modificar un unidad
+            </summary>
+            <param name="id">Id de la unidad</param>
+            <param name="unidad">Datos de la unidad</param>
+            <returns>unidad modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarUnidad(System.Int64)">
+            <summary>
+            Eliminar unidad
+            </summary>
+            <param name="id">Id de la unidad</param>
+            <returns>Mensaje de éxito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearSector(plantilla.Core.Models.Sector)">
+            <summary>
+            Crear sector
+            </summary>
+            <param name="sector">Nuevo sector</param>
+            <returns>nuevo sector</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarSector(System.Int64)">
+            <summary>
+            Eliminar sector
+            </summary>
+            <param name="id">Id del sector a eliminar</param>
+            <returns>mensaje</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearPrecondicion(plantilla.Core.Models.Precondicion)">
+            <summary>
+            Crear sector
+            </summary>
+            <param name="precondicion">Nueva precondición</param>
+            <returns>nueva precondición</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarPrecondicion(System.Int64,plantilla.Core.Models.Precondicion)">
+            <summary>
+            Modificar una precondicion
+            </summary>
+            <param name="id">Id de la precondicion</param>
+            <param name="precondicion">Datos de la precondicion</param>
+            <returns>precondicion modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminaPrecondicion(System.Int64)">
+            <summary>
+            Eliminar la precondicion
+            </summary>
+            <param name="id">Id de la precondicion</param>
+            <returns>mensje</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminaPrecondiciones(System.Int64)">
+            <summary>
+            Eliminar las precondiciones
+            </summary>
+            <param name="condicionId">Id de la condicion</param>
+            <returns>precondicion modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarSector(System.Int64,plantilla.Core.Models.Sector)">
+            <summary>
+            Modificar un sector
+            </summary>
+            <param name="id">Id del sector</param>
+            <param name="sector">Datos del sector</param>
+            <returns>sector modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearRol(plantilla.Core.Models.Rol)">
+            <summary>
+            Crear rol
+            </summary>
+            <param name="rol">Nuevo rol</param>
+            <returns>nuevo rol</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarRol(System.Int64,plantilla.Core.Models.Rol)">
+            <summary>
+            Modificar un rol
+            </summary>
+            <param name="id">Id del rol</param>
+            <param name="rol">Datos del rol</param>
+            <returns>rol modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarResponsableUnidad(System.Int64,System.Int64,System.Boolean)">
+            <summary>
+            asignar responsable de unidad
+            </summary>
+            <param name="unidadId">Id de la unidad</param>
+            <param name="usuarioId">Id del responsable</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarResponsableUnidad(System.Int64,System.Int64)">
+            <summary>
+            eliminar responsable de unidad
+            </summary>
+            <param name="unidadId">Id de la unidad</param>
+            <param name="usuarioId">Id del responsable</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarResponsableArea(System.Int64,System.Int64,System.Boolean)">
+            <summary>
+            asignar responsable de area
+            </summary>
+            <param name="areaId">Id del area</param>
+            <param name="usuarioId">Id del responsable</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarResponsableArea(System.Int64,System.Int64)">
+            <summary>
+            eliminar responsable de area
+            </summary>
+            <param name="areaId">Id del area</param>
+            <param name="usuarioId">Id del responsable</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarTareaArea(System.Int64,System.Int64)">
+            <summary>
+            asignar Tareas al Area
+            </summary>
+            <param name="areaId">Id del area</param>
+            <param name="tareaId">Id de la tarea</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarTareaArea(System.Int64,System.Int64)">
+            <summary>
+            eliminar tarea de area
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <param name="areaId">Id del area</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarResponsableSector(System.Int64,System.Int64,System.Boolean)">
+            <summary>
+            asignar responsable de sector
+            </summary>
+            <param name="sectorId">Id del area</param>
+            <param name="usuarioId">Id del responsable</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarResponsableSector(System.Int64,System.Int64)">
+            <summary>
+            eliminar responsable de sector
+            </summary>
+            <param name="sectorId">Id del area</param>
+            <param name="usuarioId">Id del responsable</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarPoliticaTarea(System.Int64,System.Int64)">
+            <summary>
+            Asignar política a una tarea 
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <param name="politicaId">Id de la política</param>
+            <returns>Instancia de política tarea recién creada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.InstanciarProcesoCliente(System.String,System.Int64,System.String,System.String,System.String,System.Int64,System.String,System.Collections.Generic.List{plantilla.Core.ViewModels.TransicionMensajeVM},System.Nullable{System.DateTime},System.String,System.Nullable{System.Int64},System.Int32)">
+            <summary>
+            Instanciar un proceso y crear una actividad 
+            dado el Id de la tarea
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="referencia">Identificador único de negocio</param>
+            <param name="descripcion">Descripción para la instancia</param>
+            <param name="maquina">Dirección ip de origen</param>
+            <param name="transicionMensajes">Listado de Id con transicionMensajes</param>
+            <param name="fechaAlerta">Fecha estimada de terminación de la actividad</param>
+            <param name="parametrosEntrada">Parámetros de entrada en formato json</param>
+            <param name="usuarioAsignado">Id del usuario encargado de realizar la tarea</param>
+            <param name="prioridad">Prioridad para la actividad</param>
+            <param name="identificadorCliente">Prioridad para la actividad</param>
+            <returns>Id de la instancia e Id de la actividad creadas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.InstanciarProcesoEjecucionAutomatica(System.String,System.String,System.String,System.String,System.String,System.Int64,System.String,System.Collections.Generic.List{plantilla.Core.ViewModels.TransicionMensajeVM},System.Nullable{System.DateTime},System.String,System.Nullable{System.Int64},System.Int32)">
+            <summary>
+            Instanciar un proceso y procesar la actividad
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="referencia">Identificador único de negocio</param>
+            <param name="descripcion">Descripción para la instancia</param>
+            <param name="maquina">Dirección ip de origen</param>
+            <param name="transicionMensajes">Listado de Id con transicionMensajes</param>
+            <param name="fechaAlerta">Fecha estimada de terminación de la actividad</param>
+            <param name="parametrosEntrada">Parámetros de entrada en formato json</param>
+            <param name="usuarioAsignado">Id del usuario encargado de realizar la tarea</param>
+            <param name="prioridad">Prioridad para la actividad</param>
+            <param name="condicionInicio">Código de la condición con la que se va a procesar la tarea de inicio</param>
+            <param name="condicionActividad">Código con que se va a procesar la actividad</param>
+            <returns>Id de la instancia e Id de la actividad creadas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.InstanciarProceso(System.Int64,System.String,System.String,System.String,System.Int64,System.String,System.Collections.Generic.List{plantilla.Core.ViewModels.TransicionMensajeVM},System.Nullable{System.DateTime},System.String,System.Nullable{System.Int64},System.Int32)">
+            <summary>
+            Instanciar un proceso y crear una actividad 
+            dado el Id de la tarea
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="referencia">Identificador único de negocio</param>
+            <param name="descripcion">Descripción para la instancia</param>
+            <param name="maquina">Dirección ip de origen</param>
+            <param name="transicionMensajes">Listado de Id con transicionMensajes</param>
+            <param name="fechaAlerta">Fecha estimada de terminación de la actividad</param>
+            <param name="parametrosEntrada">Parámetros de entrada en formato json</param>
+            <param name="usuarioAsignado">Id del usuario encargado de realizar la tarea</param>
+            <param name="prioridad">Prioridad para la actividad</param>
+            <returns>Id de la instancia e Id de la actividad creadas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.InstanciarProcesoSoloInicial(System.Int64,System.String,System.String,System.String,System.Int64,System.String,System.Collections.Generic.List{plantilla.Core.ViewModels.TransicionMensajeVM},System.Nullable{System.DateTime},System.String,System.Nullable{System.Int64},System.Int32)">
+            <summary>
+            Instanciar un proceso e instanciar solo la actividad INICIAL del proceso 
+            dado el Id de la tarea
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="referencia">Identificador único de negocio</param>
+            <param name="descripcion">Descripción para la instancia</param>
+            <param name="maquina">Dirección ip de origen</param>
+            <param name="transicionMensajes">Listado de Id con transicionMensajes</param>
+            <param name="fechaAlerta">Fecha estimada de terminación de la actividad</param>
+            <param name="parametrosEntrada">Parámetros de entrada en formato json</param>
+            <param name="usuarioAsignado">Id del usuario encargado de realizar la tarea</param>
+            <param name="prioridad">Prioridad para la actividad</param>
+            <returns>La actividad inicial, configurada para el proceso</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.InstanciarActividadByIdNegocio(System.Int64,System.String,System.Nullable{System.Int64},System.String,System.String,System.String,System.Nullable{System.Int64},System.Int32,System.Collections.Generic.List{plantilla.Core.ViewModels.TransicionMensajeVM})">
+            <summary>
+            Instanciar un proceso e instanciar solo la actividad INICIAL del proceso
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <param name="identificadorNegocio">Identificación que depende del negocio, ejemplo: (cédula, rut, nro. cheque)</param>
+            <param name="actividadId">Opcional.Id de la actividad</param>
+            <param name="referencia">Opcional. Referencia de la instancia</param>
+            <param name="descripcionInstancia">Opcional. Descripción de la instancia</param>
+            <param name="parametrosEntrada">Opcional. Lista de Parametros de entrada a la primera actividad del flujo.</param>
+            <param name="usuarioAsignadoId">Usuario al que se asigna la actividad. Si no se especifica, se usa el mismo usuario actual</param>
+            <param name="prioridad">Opcional. Prioridad de la instancia. -1 si no se especifica.</param>
+            <param name="transicionMensajes">Opcional. Lista de Mensajes de Transicion</param>
+            <return>La información de la actividad que se instanció</return>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.UsarMatriz(System.Collections.Generic.List{plantilla.Core.ViewModels.TransicionMensajeVM})">
+            <summary>
+            Matriz de TransicionMensajeVm
+            </summary>
+            <param name="valor">Valor</param>
+            <returns>Valores</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ProcesarActividad(System.Int64,System.String,System.Collections.Generic.List{plantilla.Core.ViewModels.TransicionMensajeVM},System.Nullable{System.Int64},System.String,System.Nullable{System.DateTime})">
+            <summary>
+            Processar una actividad para cambiar su estado
+            </summary>
+            <param name="actividadId">Id de la actividad</param>
+            <param name="condicion">condición que debe cumplir la actividad</param>
+            <param name="transicionMensajes">Listado de ID de transicion Mensajes</param>
+            <param name="usuarioId">Identificador de usuario</param>
+            <param name="parametros">arreglo en formato JSON que se va a guardar en los campos de la tabla</param>
+            <param name="fechaAlerta">Fecha de notificacion</param>
+            <returns>Listado de las actividades que pudieron ser creadas a partir de la actual</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EventoProcesarActividad(System.Int64,System.Int64,System.String,System.Int64)">
+            <summary>
+            Processar una actividad para cambiar su estado
+            </summary>
+            <param name="actividadLanzoEventodId">Id de la actividad</param>
+            <param name="actividadNotificadaId">Id de la actividad</param>       
+            <param name="condicion">código de la condición que debe cumplir la actividad</param>
+            <param name="usuarioId">Id del usuario que ejecuta el servicio</param>
+            <returns>Listado de las actividades que pudieron ser creadas a partir de la actual</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.RegistroEventosAutomatico(System.String,System.String,System.String,System.Int64)">
+            <summary>
+            metodo que permite registrar un evento y ejecutarlo automaticamente
+            </summary>
+            <param name="codigoTipoEvento">Codigo del tipo de evento que se deesea lanzar</param>
+            <param name="identificadorNegocio">Identificador de negocio para notificar solo las instancias que lo compartan</param>
+            <param name="expresion">expresion que regula que actividades seran notificadas para este evento mediante la comparacion de parametros</param>
+            <param name="actividadId">Actividad que lanza o emite el evento</param>            
+            <returns></returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ProcesarEventosPendientes(System.Int64,System.String,System.Nullable{System.Int64})">
+            <summary>
+            Procesa un evento pendiente o todos los eventos pendientes
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="identificadorCliente">Identificador de Negocio del cliente (cédula). Puede ser "" para NO tomarse en cuenta</param>
+            <param name="eventoplantillaId">Opcional. Id del evento</param>  
+            <returns>Retorna lista de eventos que fueron procesado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarActividad(System.Int64,System.Int64)">
+            <summary>
+            Asignar una actividad a un usuario
+            </summary>
+            <param name="usuarioId"></param>
+            <param name="actividadId"></param>
+            <returns>La Actividad asignada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.IniciarActividad(System.Int64,System.Int64)">
+            <summary>
+            Iniciar una actividad que está en estado pendiente
+            </summary>
+            <param name="usuarioId"></param>
+            <param name="actividadId"></param>
+            <returns>Actividad iniciada</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.DevolverActividad(System.Int64,System.Int64)">
+            <summary>
+            Devolver actividad a la cola
+            </summary>
+            <param name="usuarioId"></param>
+            <param name="actividadId"></param>
+            <returns>Actividad devuelta</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearNotificacion(plantilla.Core.Models.Notificacion)">
+            <summary>
+            Crear Notificacion
+            </summary>
+            <param name="notificacion">Nueva Notificación</param>
+            <returns>nueva Notificación</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearEstado(plantilla.Core.Models.Estado)">
+            <summary>
+            Crear Estado
+            </summary>
+            <param name="estado">Nuevo Estado</param>
+            <returns>nuevo Estado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearEnvio(plantilla.Core.Models.Envio)">
+            <summary>
+            Crear Envio
+            </summary>
+            <param name="envio">Nuevo Envio</param>
+            <returns>nuevo Envio</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarEnvioAsync(System.Int64,plantilla.Core.Models.Envio)">
+            <summary>
+            Modificar un Envio
+            </summary>
+            <param name="id">Id del Envio</param>
+            <param name="envio">Datos del Envio</param>
+            <returns>envio modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ModificarEstadoAsync(System.Int64,plantilla.Core.Models.Estado)">
+            <summary>
+            Modificar un Estado
+            </summary>
+            <param name="id">Id del Estado</param>
+            <param name="estado">Datos del Estado</param>
+            <returns>Estado modificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarEnvio(System.Int64)">
+             <summary>
+             Eliminar el Envio
+             </summary>
+             <param name="id">Id del Envio</param>
+             <returns>mensje</returns>
+            
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AsignarEstadoNotificacion(System.Int64,System.Int64)">
+             <summary>
+             Asignar Estado Notificacion
+             </summary>
+             <param name="id">Id del estado</param>
+             <param name="idNotificacion">Id de la notificacion</param>
+             <returns>EstadoNotificacion modificado</returns>
+            
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearTransicionMensajeAmbitoMedio(plantilla.Core.Models.TransicionMensajeAmbitoMedio)">
+            <summary>
+            Crear transicion mensaje ambito medio
+            </summary>
+            <param name="transicionMensajeAmbitoMedio">Nueva transicion mensaje ambito medio</param>
+            <returns>nuevo transicion mensaje ambito medio</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarAlcanceNotificacion(System.Int64)">
+            <summary>
+            Eliminar AlcanceNotificacion
+            </summary>
+            <param name="id">Id del AlcanceNotificacion</param>
+            <returns>mensaje</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearAlcanceNotificacion(plantilla.Core.Models.AlcanceNotificacion)">
+            <summary>
+            Crear AlcanceNotificacion
+            </summary>
+            <param name="alcanceNotificacion">Nuevo AlcanceNotificación</param>
+            <returns>nuevo AlcanceNotificación</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AgregarPersonalArea(System.Int64,System.Int64)">
+            <summary>
+            agregar personal al área
+            </summary>
+            <param name="areaId">Id del área</param>
+            <param name="usuarioId">Id del personal</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarPersonalArea(System.Int64,System.Int64)">
+            <summary>
+            eliminar personal del área
+            </summary>
+            <param name="areaId">Id del Area</param>
+            <param name="usuarioId">Id del Usuario</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.AgregarTransicionMensajeAmbitoMedio(System.Collections.Generic.List{plantilla.Core.Models.TransicionMensajeAmbitoMedio})">
+            <summary>
+            Permite crear una Transición Mensaje Ambito Medio, recibe como parámetro una lista de TransicionMensajeAmbitoMedioInputType
+            </summary>
+            <param name="transicionMensajeAmbitoMedio">Listado de Transición mensaje ámbito medio</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CopiarRoles(System.Int64,System.Int64)">
+            <summary>
+            Copiar roles
+            </summary>
+            <param name="rolIdNuevo">Rol Nuevo</param>
+            <param name="rolIdActual">Rol Actual</param>
+            <returns>Mensaje de exito con los roles copiados</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearUsuarioRol(plantilla.Core.Models.UsuarioRol)">
+            <summary>
+            Permite asignar un rol a un usurio
+            </summary>
+            <param name="usuarioRol"></param>
+            <returns>Rol asignado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarUsuarioRol(System.Int64,System.Boolean,System.Collections.Generic.List{System.Int64})">
+            <summary>
+            Elimina un rol asignado a un usuario
+            </summary>
+            <param name="usuarioId"></param>
+            <param name="delegable"></param>
+            <param name="rolesId"></param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearSectorUsuario(System.Int64,System.Int64)">
+            <summary>
+            Asigna un usuario a un sector
+            </summary>
+            <param name="sectorId"></param>
+            <param name="usuarioId"></param>
+            
+            <returns>Retorna tru si se agregó y false si se eliminó</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarSectorUsuario(System.Int64,System.Collections.Generic.List{System.Int64})">
+            <summary>
+            Modifica un sector asignado a un usuario
+            </summary>
+            <param name="usuarioId"></param>
+            <param name="sectoresId"></param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.SendNotificaciones(System.Int64,HotChocolate.Subscriptions.IEventSender)">
+            <summary>
+            Envia notificaciones
+            </summary>
+            <param name="id"></param>
+            <param name="eventSender"></param>
+            <returns>Listado de notificaciones enviadas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.CrearActividadTransicionMensaje(plantilla.Core.Models.ActividadTransicionMensaje)">
+            <summary>
+            Crear Actividad Transicion Mensaje
+            </summary>
+            <param name="actividadTransicionMensaje">Nuevo Mensaje para Actividad Transicion</param>
+            <returns>nuevo rol a permiso tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarActividadTransicionMensaje(System.Int64,System.Int64)">
+            <summary>
+            Eliminar Actividad Transicion Mensaje
+            </summary>
+            <param name="actividadId">Id de la actividad</param>
+            <param name="transicionId">Id de la transicion</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.EliminarModulo(System.Int64)">
+            <summary>
+            Eliminar módulo
+            </summary>
+            <param name="id">id del módulo a eliminar</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.IntercarmbiarOrdenModulo(System.Int64,System.Int64)">
+            <summary>
+            Eliminar módulo
+            </summary>
+            <param name="idActual">id del módulo a eliminar</param>
+            <param name="idFinal">id del módulo a eliminar</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.MarcarNotificacion(plantilla.Core.Models.UsuarioNotificacion)">
+            <summary>
+            MarcarNotificacion
+            </summary>
+            <param name="informacionMensaje">Objeto de notificacion que contiene el estado deseable, la notificacion y el usuario a quien se marcara</param>
+            <returns>Mensaje de exito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Mutations.Mutation.ProcesarActividadesAbandonadas">
+            <summary>
+            Obtener listado de actividades abandonadas
+            </summary>
+            <returns>Lista de actividades</returns>
+        </member>
+        <member name="T:plantilla.Api.Graphql.Mutations.MutationType">
+            <summary>
+            Definición de las mutaciones
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.Queries.Query">
+            <summary>
+            Operaciones de consultas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetArea(System.Int64)">
+            <summary>
+            Mostrar las áreas dado un Id del área
+            </summary>
+            <param name="id">Id del área</param>
+            <returns>Listado de áreas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAreasResponsableActual">
+            <summary>
+            Obtener las áreas en las cuales el usuario actual es responsable
+            </summary>
+            <returns>IQueryable de areas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetActividad(System.Int64)">
+            <summary>
+            Mostrar las actividades dado un Id de actividad
+            </summary>
+            <param name="id">Id de la actividad</param>
+            <returns>Listado de actividades</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetColumnasActividadAsync(System.Int64)">
+            <summary>
+            Mostrar las actividades de una tarea dado un Id de tarea
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <returns>Listado de actividades</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetColumna(System.Int64)">
+            <summary>
+            Mostrar una columna dado un Id de columna
+            </summary>
+            <param name="id">Id de columna</param>
+            <returns>El detalle de la columna</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareaEnlace(System.Int64)">
+            <summary>
+            Mostrar los enlaces de una Tarea, dado su Id
+            </summary>
+            <param name="id"></param>
+            <returns>El detalle del enlace de una tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareaEnlaces(System.Int64)">
+            <summary>
+            Mostrar los enlaces dado un Id de Tarea
+            </summary>
+            <param name="tareaId"></param>
+            <returns>El detalle de la columna</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEventoplantilla(System.Int64)">
+            <summary>
+            Mostrar los eventos de plantilla, dado su Id
+            </summary>
+            <param name="id"></param>
+            <returns>El detalle de un evento</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEventosplantilla">
+            <summary>
+            Obtener los eventos de plantilla
+            </summary>
+            <returns>Listado de evento</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTipoEvento(System.Int64)">
+            <summary>
+            Mostrar los tipos de eventos, dado su Id
+            </summary>
+            <param name="id"></param>
+            <returns>El detalle de un tipo de evento</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTipoEventos">
+            <summary>
+            Obtener los tipos de eventos
+            </summary>
+            <returns>Listado de tipos de eventos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareaSuscripcionTipoEvento(System.Int64)">
+            <summary>
+            Mostrar las relaciones Tarea - Tipo de Evento - Condicion, dado su Id
+            </summary>
+            <param name="id"></param>
+            <returns>El detalle de una relación Tarea - Tipo de Evento - Condicion</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareaSuscripcionTipoEventos">
+            <summary>
+            Obtener las relaciones Tarea - Tipo de Evento - Condicion
+            </summary>
+            <returns>Listado de las relaciones Tarea - Tipo de Evento - Condicion</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetActividadNotificacion(System.Int64)">
+            <summary>
+            Mostrar las actividades notificadas durante un evento, dado su Id
+            </summary>
+            <param name="id"></param>
+            <returns>El detalle de una actividad notificada por un evento</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetActividadNotificaciones">
+            <summary>
+            Obtener las actividades notificadas durante un evento
+            </summary>
+            <returns>Listado de las actividades notificadas por los eventos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetActividadesFiltradas(System.Int64,plantilla.Core.ViewModels.EstadosActividad,plantilla.Core.ViewModels.RangoFecha,plantilla.Core.ViewModels.RangoFecha,plantilla.Core.ViewModels.RangoFecha,plantilla.Core.ViewModels.RangoFecha,System.Collections.Generic.List{System.Int64},System.Int64,System.String,plantilla.Core.ViewModels.OrdenBandeja,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio,plantilla.Core.ViewModels.CampoNegocio)">
+            <summary>
+            Mostrar las actividades filtradas
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <param name="estados">Estado</param>
+            <param name="fechaCreacion">Fecha de Creación</param>
+            <param name="fechaCierre">Fecha de cierre</param>
+            <param name="fechaAsignacion">Fecha de Asignación</param>
+            <param name="fechaAlerta">Fecha de Alerta</param>
+            <param name="usuarioOrigen">Usuario Origen</param>
+            <param name="usuario">Usuario</param>
+            <param name="busqueda">Búsqueda</param>
+            <param name="orden">Orden</param>
+            <param name="claveNegocio1">claveNegocio1</param>
+            <param name="claveNegocio2">claveNegocio2</param>
+            <param name="claveNegocio3">claveNegocio3</param>
+            <param name="campoNegocio1">campoNegocio1</param>
+            <param name="campoNegocio2">campoNegocio2</param>
+            <param name="campoNegocio3">campoNegocio3</param>
+            <param name="campoNegocio4">campoNegocio4</param>
+            <param name="campoNegocio5">campoNegocio5</param>
+            <param name="campoNegocio6">campoNegocio6</param>
+            <param name="campoNegocio7">campoNegocio7</param>
+            <param name="campoNegocio8">campoNegocio8</param>
+            <param name="campoNegocio9">campoNegocio9</param>
+            <param name="campoNegocio10">campoNegocio10</param>
+            <param name="campoNegocio11">campoNegocio11</param>
+            <param name="campoNegocio12">campoNegocio12</param>
+            <param name="campoNegocio13">campoNegocio13</param>
+            <param name="campoNegocio14">campoNegocio14</param>
+            <param name="campoNegocio15">campoNegocio15</param>
+            <param name="campoNegocio16">campoNegocio16</param>
+            <param name="campoNegocio17">campoNegocio17</param>
+            <param name="campoNegocio18">campoNegocio18</param>
+            <param name="campoNegocio19">campoNegocio19</param>
+            <param name="campoNegocio20">campoNegocio20</param>
+            <returns>Listado de activiades filtradas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetInstanciasFiltradas(System.Int64,plantilla.Core.ViewModels.UsuarioActividad,plantilla.Core.ViewModels.IdentificadorCliente,plantilla.Core.ViewModels.RangoFecha,plantilla.Core.ViewModels.RangoFecha,Common.Utils.CustomTypes.EstadoInstancia,plantilla.Core.ViewModels.EstadosNegocioActividad,plantilla.Core.ViewModels.EstadosNegocioInstancia)">
+            <summary>
+            Obtener las instancias filtradas
+            </summary>
+            <param name="instanciaId">Id de Instancia</param>
+            <param name="usuarioActividad">Usuario Actividad</param>
+            <param name="identificadorCliente">Identificador Cliente</param>
+            <param name="fechaApertura">Fecha Apertura</param>
+            <param name="fechaCierre">Fecha Cierre</param>
+            <param name="estadoInstancia">Estado Instancia</param>
+            <param name="estadosNegocioActividad">Estados Negocio Actividad</param>
+            <param name="estadosNegocioInstancia">Estados Negocio Instancia</param>
+            <returns>Listado de instancias filtradas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetObtenerInstanciasParalelas(System.Int64,System.String)">
+            <summary>
+            Obtener todas las areas
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <param name="identificadorCliente">Identificador del cliente</param>
+            <returns>Listado de areas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetInstanciasMismaTareaActiva(System.Int64,System.String)">
+            <summary>
+            Evalua si existen otras instancias Paralelas, que tengan actividades activas cuyos tareaId sean iguales aL especificado
+            </summary>
+            <param name="tareaId"></param>
+            <param name="identificadorCliente"></param>
+            <returns>Retorna lista de las instancias, que tengan actividades activas, cuyos tareaId sean iguales aL especificado</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAreas">
+            <summary>
+            Obtener todas las areas
+            </summary>
+            <returns>Listado de areas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetBandejas(System.Int64)">
+            <summary>
+             Devolver las bandejas asignadas a un usuario
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <returns>Lista de modulos de tipo bandejas con sus hijos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetClasificacionProcesos">
+            <summary>
+            Obtener las clasificaciones por proceso
+            </summary>
+            <returns>Listado de clasificaciones</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetClasificacionTareas">
+            <summary>
+            Obtener las clasificaciones por tareas
+            </summary>
+            <returns>Listado de clasificaciones</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetCondicion(System.Int64)">
+            <summary>
+            Obtener una condición dado un Id de condición
+            </summary>
+            <param name="id">Id de la condición</param>
+            <returns>El detalle de la condición</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetDependencia(System.Int64)">
+            <summary>
+            Obtener una dependencia dado un Id de dependencia
+            </summary>
+            <param name="id">Id de la dependencia</param>
+            <returns>El detalle de la dependencia</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetDependencias">
+            <summary>
+            Obtener todas las dependencias
+            </summary>
+            <returns>Listado de las dependencias</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetMenus(System.Int64,System.Int64)">
+            <summary>
+            Consultar los modulos que hacen referencia a un menú por usuario
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="moduloId">Id del módulo</param>
+            <returns>Listado de menus del usuario</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAplicacionEnlaces(System.Int64,System.Int64)">
+            <summary>
+            Consultar los modulos que hacen referencia a un enlace de menú por usuario
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="moduloId">Id del módulo</param>
+            <returns>Listado de los enlaces de menus del usuario</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetModulo(System.Int64)">
+            <summary>
+            Consultar un módulo dado un Id de módulo
+            </summary>
+            <param name="id">Id del módulo</param>
+            <returns>El detalle del módulo</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetModulos">
+            <summary>
+            Obtener todos los módulos
+            </summary>
+            <returns>Listado de mï¿½dulos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPoliticas">
+            <summary>
+            Consultar todas las polï¿½ticas
+            </summary>
+            <returns>Listado de polï¿½ticas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPermisosUsuario(System.Int64)">
+            <summary>
+            Obtener los permisos del usuario por tarea
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <returns>Permisos del usuario por tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPermisosTarea(System.Int64)">
+            <summary>
+            Consultar los permisos por tarea
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <returns>Permisos asociados a la tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPermisoTarea(System.Int64)">
+            <summary>
+            Consultar los permisos de una tarea
+            </summary>
+            <param name="id">Id de la tarea</param>
+            <returns>Permisos de la tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetRolModulo(System.Int64)">
+            <summary>
+            Consultar los mï¿½dulos asociados a un rol
+            </summary>
+            <param name="rolId">Id del rol</param>
+            <returns>Módulos asociados al rol</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPermisoTareaRol(System.Int64,System.Int64)">
+            <summary>
+            Consultar los permisos por tarea y rol
+            </summary>
+            <param name="rolId">Id del rol</param>
+            <param name="tareaId">Id de la tarea</param>
+            <returns>Permisos asociados a una tarea y un rol</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetReglasNegocios(System.Int64)">
+            <summary>
+            Consultar las reglas negocio asociadas a una tarea
+            </summary>
+            <param name="tareaId">Id de la tarea </param>
+            <returns>Listado de reglas negocios</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetReglaNegocio(System.Int64)">
+            <summary>
+            Obtener el detalle de una regla negocio
+            </summary>
+            <param name="id">Id de la regla negocio</param>
+            <returns>Detalle de regla negocio</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetReglasNegociosParametros(System.Int64)">
+            <summary>
+            Obtener el detalle de una regla negocio parï¿½metro
+            </summary>
+            <param name="reglaNegocioId">Id de la regla negocio parámetro</param>
+            <returns>Detalle de regla negocio parámetro</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetReglasNegociosParametrosRoles(System.Int64,System.Int64)">
+            <summary>
+            Obtener el detalle de una regla negocio parï¿½metro rol
+            </summary>
+            <param name="rolId">Id del rol</param>
+            <param name="parametroId">Id del parámetro</param>
+            <returns>Detalle de regla negocio parámetro rol</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetReglaNegocioParametro(System.Int64)">
+            <summary>
+            Obtener el detalle de regla negocio parï¿½metro
+            </summary>
+            <param name="id">Id del parámetro</param>
+            <returns>Regla negocio parámetro</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPermisosTareasPermiso(System.Int64)">
+            <summary>
+            Obtener permisos tarea permiso
+            </summary>
+            <param name="permisoTareaId">Id del permisoTarea </param>
+            <returns>Permisos tarea permiso</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPermisoTareaPermiso(System.Int64)">
+            <summary>
+            Obtener permiso tarea permiso
+            </summary>
+            <param name="id">Id del permiso tarea permiso</param>
+            <returns>Permiso tarea permiso</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPrecondicion(System.Int64)">
+            <summary>
+            Obtener el detalle de una precondiciï¿½n
+            </summary>
+            <param name="id">Id de la precondición</param>
+            <returns>Detalle de precondición</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPrecondicionPorCondicion(System.Int64)">
+            <summary>
+            Obtener precondiciï¿½n por condiciï¿½n
+            </summary>
+            <param name="condicionId">Id de la condición</param>
+            <returns>Listado de precondiciones por condición</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetProceso(System.Int64)">
+            <summary>
+            Obtener un proceso dado un Id de proceso
+            </summary>
+            <param name="id">Id del proceso</param>
+            <returns>Detalle del proceso</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetProcesos">
+            <summary>
+            Obtener todos los procesos
+            </summary>
+            <returns>Listado de procesos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPrograma(System.Int64)">
+            <summary>
+            Obtener un programa dado un Id de programa
+            </summary>
+            <param name="id">Id de programa</param>
+            <returns>Detalle del programa</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetProgramas">
+            <summary>
+            Obtener todos los programas
+            </summary>
+            <returns>Listado de programas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTiposParametros">
+            <summary>
+            Obtener los tipos de parámetros
+            </summary>
+            <returns>Listado de tipos de parámetros</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetPermisos">
+            <summary>
+            Obtener los permisos
+            </summary>
+            <returns>Listado de permisos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetReglasTransiciones">
+            <summary>
+            Obtener las reglas de las transiciones
+            </summary>
+            <returns>Listado de reglas de transiciones</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTransicionesMensajes">
+            <summary>
+            Obtener los mensajes de una transición
+            </summary>
+            <returns>Listado de mensajes por transición</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTransicionMensaje(System.Int64)">
+            <summary>
+            Obtener un mensaje de transición
+            </summary>
+            <param name="id">Id de la transiciónMensaje</param>
+            <returns>Detalle de transición mensaje</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetResponsablesArea(System.Int64)">
+            <summary>
+            Obtener los responsables del área
+            </summary>
+            <param name="areaId">Id del área</param>
+            <returns>Listado de responsables del área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetResponsablesAreaUsuario(System.Int64,System.Int64)">
+            <summary>
+            Obtener los responsables del área por usuario
+            </summary>
+            <param name="areaId">Id del área</param>
+            <returns>Listado de responsables del área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetResponsablesSector(System.Int64)">
+            <summary>
+            Obtener los responsables del sector
+            </summary>
+            <param name="sectorId">Id del sector</param>
+            <returns>Listado de responsables del sector</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetResponsablesUnidad(System.Int64)">
+            <summary>
+            Obtener los responsables de la unidad
+            </summary>
+            <param name="unidadId">Id de la unidad</param>
+            <returns>Listado de responsables de la unidad</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetResponsablesNoAsignadosArea(System.Int64)">
+            <summary>
+            Obtener los responsables no asignados al area
+            </summary>
+            <param name="areaId">Id del área</param>
+            <returns>Listado de responsables no asignados al área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetResponsablesNoAsignadosSector(System.Int64)">
+            <summary>
+            Obtener los responsables no asignados al sector
+            </summary>
+            <param name="sectorId">Id del sector</param>
+            <returns>Listado de responsables no asignados al sector</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetResponsablesNoAsignadosUnidad(System.Int64)">
+            <summary>
+            Obtener los responsables no asignados a la unidad
+            </summary>
+            <param name="unidadId">Id de la unidad</param>
+            <returns>Listado de responsables no asignados a la unidad</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetRol(System.Int64)">
+            <summary>
+            Obtener un rol dado un Id de rol
+            </summary>
+            <param name="id">Id del rol</param>
+            <returns>Detalle del rol</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetRoles">
+            <summary>
+            Obtener todos los roles
+            </summary>
+            <returns>Listado de roles</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetClasificacionesRoles">
+            <summary>
+            Obtener la clasificación de roles
+            </summary>
+            <returns>Listado de clasificación de roles</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAmbitos">
+            <summary>
+            Obtener todos los ámbitos
+            </summary>
+            <returns>Listado de ámbitos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetSector(System.Int64)">
+            <summary>
+            Obtener un sector dado un Id de sector
+            </summary>
+            <param name="id">Id del sector</param>
+            <returns>Detalle del sector</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetSectores">
+            <summary>
+            Obtener todos los sectores
+            </summary>
+            <returns>Listado de sectores</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTableros(System.Int64)">
+            <summary>
+            Obtener los tableros del usuario
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <returns>Listado de tableros del usuario</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTiposPrioridades">
+            <summary>
+            Obtener todos los tipos de prioridades
+            </summary>
+            <returns>Listado de tipos prioridades</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTiposFiltros">
+            <summary>
+            Obtener todos los tipos filtro
+            </summary>
+            <returns>Listado de tipos filtro</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTiposProcesos">
+            <summary>
+            Obtener todos los tipos de procesos
+            </summary>
+            <returns>Listado de tipos procesos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTiposProgramas">
+            <summary>
+            Obtener todos los tipos de programas
+            </summary>
+            <returns>Listado de tipos de programas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTarea(System.Int64)">
+            <summary>
+            Obtener una tarea dado un Id de tarea
+            </summary>
+            <param name="id">Id de la tarea</param>
+            <returns>Detalle de la tarea</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareas">
+            <summary>
+            Obtener todas las tareas
+            </summary>
+            <returns>Listado de tareas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareasInArea(System.Int64)">
+            <summary>
+            Obtener las tareas asignadas a un área
+            </summary>
+            <param name="areaId">Id del área</param>
+            <returns>Listado de tareas asignadas al área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareasNotInArea(System.Int64)">
+            <summary>
+            Obtener las tareas que no están asignadas a un área
+            </summary>
+            <param name="areaId">Id del área</param>
+            <returns>Listado de tareas no asignadas a un área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareasProcesosNotInArea(System.Int64,System.Int64)">
+            <summary>
+            Obtener las tareas que no están asignadas a un área y un proceso activo
+            </summary>
+            <param name="areaId">Id del área</param>
+            <param name="procesoId">id del proceso</param>
+            <returns>Listado de tareas no asignadas a un área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetProcesosNotInArea(System.Int64)">
+            <summary>
+            Obtener las tareas que no están asignadas a un área y un proceso activo
+            </summary>
+            <param name="areaId">Id del área</param>
+            <returns>Listado de tareas no asignadas a un área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetInfoPorClienteYTarea(System.Int64,System.String)">
+            <summary>
+            Dado un TareaId y un ClienteId regresa la información de las instancias y actividades activas
+            </summary>
+            <param name="tareaId">Id de la tarea</param>
+            <param name="identificadorCliente">Cedula del cliente</param>
+            <returns>
+            Retorna los id de Instancia y Actividades (con sus TareaIds) asociados con un TareaId y un ClienteId
+            </returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTareasAreas">
+            <summary>
+            Obtener todas las tareas áreas
+            </summary>
+            <returns>Listado de tareas áreas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTransicion(System.Int64)">
+            <summary>
+            Obtener una transición dado un Id de transición
+            </summary>
+            <param name="id">Id de la transición</param>
+            <returns>Detalle de la transición</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTransiciones">
+            <summary>
+            Obtener todas las transiciones
+            </summary>
+            <returns>Listado de transiciones</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetUnidad(System.Int64)">
+            <summary>
+            Obtener una unidad dado un Id de unidad
+            </summary>
+            <param name="id">Id de la unidad</param>
+            <returns>Detalle de la unidad</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetUnidades">
+            <summary>
+            Obtener todas las unidades
+            </summary>
+            <returns>Listado de unidades</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetUsuario(System.Int64)">
+            <summary>
+            Obtener un usuario dado un Id de usuario
+            </summary>
+            <param name="id">Id de usuario</param>
+            <returns>Detalle del usuario</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetUsuarios">
+            <summary>
+            Obtener todos los usuarios
+            </summary>
+            <returns>Listado de usuarios</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetUsuarioEstadoUsuarios(System.Int64)">
+            <summary>
+            Obtener los estados del usuario
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <returns>Listado de los estados del usuario</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetUsuarioSuspendidos(System.Int64)">
+            <summary>
+            Obtener las suspensiones de un usuario, dado un Id de usuario
+            </summary>
+            <param name="usuarioId">Id de usuario</param>
+            <returns>Listado de las suspensiones de un usuario</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetUsuarioSucursales">
+            <summary>
+            Obtener las sucursales a las que pertenece un usuario
+            </summary>
+            <returns>Listado de sucursales</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetVerificarCodigoSeguridad(System.Int64,System.String)">
+            <summary>
+            Verificar el código de seguridad de un usuario
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="codigoSeguridad">Código de seguridad</param>
+            <returns>Verdadero o falso</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetInstancias">
+            <summary>
+            Obtener todas las instancias
+            </summary>
+            <returns>Listado de instancias</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetActividades">
+            <summary>
+            Obtener todas las actividades
+            </summary>
+            <returns>Listado de actividades</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEstadoNegocioActividades(System.Int32,System.String)">
+            <summary>
+            Obtener los estado negocio actividades
+            </summary>
+            <param name="elementos">Elementos a obtener</param>
+            <param name="patron">Patron</param>
+            <returns>Listado de estado negocio actividades</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEstadoNegocioInstancias(System.Int32,System.String)">
+            <summary>
+            Obtener el estado negocio de instancias
+            </summary>
+            <param name="elementos">Elementos a obtener</param>
+            <param name="patron">Patron</param>
+            <returns>Listado de estado negocio instancias</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetIdentificadorClienteInstancias(System.Int32,System.String)">
+            <summary>
+            Obtener el identificador cliente intancias
+            </summary>
+            <param name="elementos">Elementos a obtener</param>
+            <param name="patron">Patron</param>
+            <returns>Listado de identificador cliente instancias</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetNotificacion(System.Int64)">
+            <summary>
+            Obtener notificación dado un Id de notificación
+            </summary>
+            <param name="id">Id de notificación</param>
+            <returns>Detalle de notificación</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetBandejaNotificaciones(System.Int64)">
+            <summary>
+            Obtener las notificaciones de una bandeja de usuario
+            </summary>
+            <param name="id">Id del usuario</param>
+            <returns>Detalle de la bandeja</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetNotificaciones">
+            <summary>
+            Obtener todas las notificaciones
+            </summary>
+            <returns>Listado de notificaciones</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEstados">
+            <summary>
+            Obtener todos los estados
+            </summary>
+            <returns>Listado de estados</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEnvios">
+            <summary>
+            Obtener todos los envíos
+            </summary>
+            <returns>Listado de envíos</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEstadoNotificaciones">
+            <summary>
+            Obtener todos los estados de notificaciones
+            </summary>
+            <returns>Listado de estado notificaciones</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAlcanceNotificaciones">
+            <summary>
+            Obtener todos los alcance notificaciones
+            </summary>
+            <returns>Listado de alcance notificaciones</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAmbitoMedio(System.Int64)">
+            <summary>
+            Obtener ámbito medio dado un Id de ámbito
+            </summary>
+            <param name="ambitoId">Id del ámbito</param>
+            <returns>Detalle del ámbito medio</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAmbito(System.Int64)">
+            <summary>
+            Obtener un ámbito dado un Id de ámbito
+            </summary>
+            <param name="id">Id del ámbito</param>
+            <returns>Detalle del ámbito</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAreaUsuariosAsignados(System.Collections.Generic.List{System.Int64})">
+            <summary>
+            Obtener los usuarios asignados a una lista de áreas
+            </summary>
+            <param name="areas">Id del área</param>
+            <returns>Listado de usuarios asignados al área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAreaUsuariosNoAsignados(System.Int64)">
+            <summary>
+            Obtener los usuarios asignados al área
+            </summary>
+            <param name="areaId">Id del área</param>
+            <returns>Listado de usuarios no asignados al área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetTransicionMensajeAmbitoMedio(System.Int64,System.Int64)">
+            <summary>
+            Obtener las transiciones ámbitos medios por ámbito
+            </summary>
+            <param name="transicionMensajeId">Id de ka transición mensaje</param>
+            <param name="ambitoId">Id del ámbito</param>
+            <returns></returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEmpleadosSector(System.Int64)">
+            <summary>
+            Obtener los empleados del sector
+            </summary>
+            <param name="sectorId">Id del sector</param>
+            <returns>Listado de empleados del sector</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetEmpleadosNoAsignadosSector(System.Int64,System.Int64)">
+            <summary>
+            Obtener los empleados no asignados al sector
+            </summary>
+            <param name="sectorId">Id del sector</param>
+            <param name="areaId">Id del área</param>
+            <returns>Listado de empleados no asignados al sector</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetActividadTransicionMensaje(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Obtener la actividad transición mensaje dado un Id de usuario, un Id de instancia y un Id de medio
+            </summary>
+            <param name="usuarioId">Id del usuario</param>
+            <param name="instanciaId">Id de la instancia</param>
+            <param name="medioId">Id del medio</param>
+            <returns>Listado de acctividad transición mensaje</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetClienteActividadTransicionMensaje(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Obtener cliente actividad transición mensaje dado un Id de usuario, un Id de instancia y un Id de medio
+            </summary>
+            <param name="usuarioId">Id de usuario</param>
+            <param name="instanciaId">Id de instancia</param>
+            <param name="medioId">Id de medio</param>
+            <returns>Listado de cliente actividad transición mensaje</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetActividadesSuscritasParaNotificar(System.Int64,System.String)">
+            <summary>
+            Obtiene las actividades a notificar, que estan suscritas a un evento determinado
+            </summary>
+            <param name="eventoplantillaId"></param>
+            <param name="identificadorCliente">Identificador de negocio del cliente (cédula). Puede ser "" para NO tomarse en cuenta</param>
+            <returns>Retorna información de las actividades a notificar</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetAreaUsuarioRol(System.Int64)">
+            <summary>
+            Obtener las áreas de un usuario por rol, area asignada y responsable de área
+            </summary>
+            <param name="usuarioId">Id de usuario</param>
+            <returns>Listado de áreas</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetCondicionesByActividad(System.Int64)">
+            <summary>
+            Trae la lista de condiciones en una actividad
+            </summary>
+            <param name="actividadId"></param>
+            <returns>Retorna la lista de las condiciones en una actividad</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.QueryProcesarAct(System.Int64)">
+            <summary>
+            Trae las consultas que son procesables en una actividad
+            </summary>
+            <param name="actividadId"></param>
+            <returns>Retorna las consultas perocesables</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Queries.Query.GetArbolMensajes(System.Int64)">
+            <summary>
+            Obtiene las condiciones transiciones, transicion mensaje y  de una actividad 
+            </summary>
+            <param name="actividadId">Id de la actividad</param>
+            <returns></returns>
+        </member>
+        <member name="T:plantilla.Api.Graphql.Queries.QueryType">
+            <summary>
+            Operaciones de consultas
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ActividadNotificacionType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Evento plantilla
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ActividadNotificacionType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ActividadNotificacion})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ActividadTransicionMensajeType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ActividadTransicionMensajeType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ActividadTransicionMensaje})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ActividadType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Areas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ActividadType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Actividad})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.AlcanceNotificacionType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.AlcanceNotificacionType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.AlcanceNotificacion})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.AmbitoMedioType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.AmbitoMedioType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.AmbitoMedio})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.AmbitoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.AmbitoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Ambito})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.AreaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Areas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.AreaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Area})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.AreaUsuarioType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.AreaUsuarioType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.AreaUsuario})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.CatalogoDinamicoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.CatalogoDinamicoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.CatalogoDinamico})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ClasificacionProcesoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ClasificacionProcesoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ClasificacionProceso})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ClasificacionRolType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ClasificacionRolType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ClasificacionRol})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ClasificacionTareaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ClasificacionTareaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ClasificacionTarea})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ColumnaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ColumnaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Columna})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.CondicionType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Condicion})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.DependenciaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de dependencias
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.DependenciaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Dependencia})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.EnvioType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.EnvioType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Envio})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ErrorMessageType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Areas
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.EstadoNotificacionType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.EstadoNotificacionType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.EstadoNotificacion})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.EstadoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.EstadoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Estado})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.EventoplantillaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Evento plantilla
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.EventoplantillaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Eventoplantilla})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.InstanciaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.InstanciaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Instancia})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ListaValorType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ListaValorType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ListaValor})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ModuloType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ModuloType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Modulo})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.NotificacionResultType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.NotificacionResultType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.ViewModels.NotificacionResult})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.NotificacionType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.NotificacionType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Notificacion})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.PermisoTareaPermisoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.PermisoTareaPermisoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.PermisoTareaPermiso})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.PermisoTareaRolType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.PermisoTareaRolType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.PermisoTareaRol})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.PermisoTareaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.PermisoTareaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.PermisoTarea})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.PermisoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.PermisoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Permiso})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.PoliticaTareaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.PoliticaTareaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.PoliticaTarea})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.PoliticaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.PoliticaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Politica})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.PrecondicionType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Campos
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ProcesoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ProcesoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Proceso})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ProgramaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Campos
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ProgramaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Programa})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+            
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.RaizArbolType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Evento plantilla
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.RaizArbolType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.ViewModels.RaizCondiciones})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ReglaNegocioParametroRolType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ReglaNegocioParametroRolType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ReglaNegocioParametroRol})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ReglaNegocioParametroType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ReglaNegocioParametroType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ReglaNegocioParametro})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ReglaNegocioType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ReglaNegocioType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ReglaNegocio})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ReglaTransicionType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ReglaTransicionType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ReglaTransicion})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ResponsableAreaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ResponsableAreaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ResponsableArea})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ResponsableSectorType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ResponsableSectorType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ResponsableSector})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.ResponsableUnidadType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.ResponsableUnidadType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.ResponsableUnidad})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.RolModuloType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de roles
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.RolModuloType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.RolModulo})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.RolType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de roles
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.RolType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Rol})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.SectorTareaAreaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.SectorTareaAreaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.SectorTareaArea})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.SectorType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Sectores
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.SectorType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Sector})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.SectorUsuarioType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.SectorUsuarioType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.SectorUsuario})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TareaAreaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TareaAreaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TareaArea})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TareaEnlaceType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de roles
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TareaEnlaceType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TareaEnlace})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TareaSuscripcionTipoEventoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Evento plantilla
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TareaSuscripcionTipoEventoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TareaSuscripcionTipoEvento})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TareaType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de tareas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TareaType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Tarea})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TipoEventoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Evento plantilla
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TipoEventoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TipoEvento})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TipoFiltoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TipoFiltoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TipoFiltro})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TipoParametroType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Parametros
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TipoParametroType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TipoParametro})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TipoPrioridadType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TipoPrioridadType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TipoPrioridad})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.TipoProcesoType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Procesos
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TipoProcesoType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TipoProceso})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TransicionMensajeAmbitoMedioType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TransicionMensajeAmbitoMedio})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TransicionMensajeType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.TransicionMensaje})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.TransicionType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Transicion})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.UnidadType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Unidades
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.UnidadType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.Unidad})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.UsuarioEstadoUsuarioType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.QueryTypes.UsuarioEstadoUsuarioType.Configure(HotChocolate.Types.IObjectTypeDescriptor{plantilla.Core.Models.UsuarioEstadoUsuario})">
+            <summary>
+            Definición de los campos disponibles para la interacción a través del endpoint.
+            cada campo puede tener una descripción que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.UsuarioRolType">
+            <summary>
+            Tipo que define los campos disponibles para el endpoint de Reglas
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.UsuarioSucursalType">
+            <summary>
+            Definici�n de los campos disponibles para la interacci�n a trav�s del endpoint.
+            cada campo puede tener una descripci�n que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.QueryTypes.UsuarioType">
+            <summary>
+            Definici�n de los campos disponibles para la interacci�n a trav�s del endpoint.
+            cada campo puede tener una descripci�n que sirve para autodocumentar el endpoint
+            y que se puede visualizar desde graphiql.
+            Los campos pueden ser tipos y estos sirven para navegar por las relaciones establecidas
+            en la base de datos.
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.Resolvers.ActividadResolver">
+            <summary>
+            resolver de la actividad
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Resolvers.ActividadResolver.GetNotificacionVencida(plantilla.Core.Models.Actividad)">
+            <summary>
+            trae la notificación de vencida solo cuando fecha de alerta es menor a la fecha actual
+            </summary>
+            <param name="actividad"></param>
+            <returns>Retorna la notificación vencida</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Resolvers.ActividadResolver.GetNotificacionDisponibilidad(plantilla.Core.Models.Actividad)">
+            <summary>
+            Trae la notificación de disponibilidad solo cuando la fecha disponibilidad de bandeja es menor o igual a la fecha actual
+            </summary>
+            <param name="actividad"></param>
+            <returns>Retorna la notificación de disponibilidad</returns>
+        </member>
+        <member name="T:plantilla.Api.Graphql.Resolvers.UsuarioResolver">
+            <summary>
+            Resolver el usuario
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Resolvers.UsuarioResolver.GetEstadoSuspension(plantilla.Core.Models.Usuario)">
+            <summary>
+            Determina el estado de suspensión de un usuario
+            </summary>
+            <param name="usuario"></param>
+            <returns>Retorna booleano que indica si esta en un periodo de suspensión</returns>
+        </member>
+        <member name="T:plantilla.Api.Graphql.Subscription">
+            <summary>
+            UnionTypes para la suscripción
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Subscription.OnCrearArea(plantilla.Core.Models.Area,HotChocolate.Subscriptions.IEventMessage)">
+            <summary>
+            Trae los mensajes al crear un área
+            </summary>
+            <param name="Area"></param>
+            <param name="message"></param>
+            <returns>Retorna los mensajes para la creación del área</returns>
+        </member>
+        <member name="M:plantilla.Api.Graphql.Subscription.OnCrearEnvio(System.Int64,HotChocolate.Subscriptions.IEventMessage)">
+            <summary>
+            Trae el mensaje del envio de usuario
+            </summary>
+            <param name="envioId"></param>
+            <param name="message"></param>
+            <returns>Retorna el mensaje del envio al usuario específico</returns>
+        </member>
+        <member name="T:plantilla.Api.Graphql.SubscriptionType">
+            <summary>
+            UnionTypes para la suscripción y configuración del área
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Graphql.UnionTypes.AreaResult">
+            <summary>
+            UnionTypes para resultado del área
+            </summary>
+        </member>
+        <member name="T:plantilla.Api.Startup">
+            <summary>
+            Configura los servicios y la canalización de solicitudes de la aplicación
+            </summary>
+        </member>
+        <member name="M:plantilla.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Representa un conjunto de propiedades de configuración de la aplicación de clave y valor.
+            </summary>
+            <param name="configuration">Configuraciones</param>
+        </member>
+        <member name="M:plantilla.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configuraciones del servicio
+            </summary>
+            <param name="services">Coleccion de Servicios</param>
+        </member>
+    </members>
+</doc>

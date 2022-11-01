@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>plantilla.Core</name>
+    </assembly>
+    <members>
+        <member name="T:plantilla.Core.IUnitOfWork">
+            <summary>
+            Interfaz para el manejo de las operaciones
+            relacionadas con la base de datos
+            </summary>
+        </member>
+        <member name="P:plantilla.Core.IUnitOfWork.OpcionDeFinanciaciones">
+            <summary>
+            Interface de actividades
+            </summary>
+        </member>
+        <member name="T:plantilla.Core.Models.EntidadBase">
+            <summary>
+            Entidad base para todos los modelos del proyecto
+            </summary>
+        </member>
+        <member name="M:plantilla.Core.Repositories.IConsultarEstadoplantillainTarjetaRepository.GetConsultarEstadoplantillainTarjeta(System.Int64)">
+            <summary>
+            Interfaz para obtener el nombre del estado del plantilla
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:plantilla.Core.Repositories.IOpcionDeFinanciacionRepository">
+            <summary>
+            Interfaz para el programa del responsable
+            </summary>
+        </member>
+        <member name="M:plantilla.Core.Repositories.IOpcionDeFinanciacionRepository.GetOpcionesDeFinanciacion(System.String,System.String,System.Double,System.Int32)">
+            <summary>
+            Interfaz para obtener los prgramas con el nombre del tipo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:plantilla.Core.Utilidades.Criptografia">
+            <summary>
+            Codificar cadenas
+            </summary>
+        </member>
+        <member name="M:plantilla.Core.Utilidades.Criptografia.GenerarSHA256(System.String)">
+            <summary>
+            Generar SHA256
+            </summary>
+            <param name="entrada">Cadena a codificar</param>
+            <returns>Cadena codificada</returns>
+        </member>
+        <member name="M:plantilla.Core.Utilidades.Criptografia.GenerarCadena(System.Byte[])">
+            <summary>
+            Generar cadena
+            </summary>
+            <param name="hash">Hash</param>
+            <returns>Cadena hasheada</returns>
+        </member>
+        <member name="T:plantilla.Core.Utilidades.GenRandom">
+            <summary>
+            Generar n�mero aleatorio
+            </summary>
+        </member>
+        <member name="M:plantilla.Core.Utilidades.GenRandom.ObtenerRandom">
+            <summary>
+            Generar un n�mero aleatorio de 6 d�gitos
+            </summary>
+            <returns>N�mero aleatorio</returns>
+        </member>
+        <member name="T:plantilla.Core.ViewModels.Diccionario">
+            <summary>
+            Vista de formulario activar
+            </summary>
+        </member>
+        <member name="P:plantilla.Core.ViewModels.Diccionario.Valores">
+            <summary>
+            Valores
+            </summary>
+        </member>
+        <member name="T:plantilla.Core.ViewModels.RangoDuracion">
+            <summary>
+            Vista de rango duración
+            </summary>
+        </member>
+        <member name="T:plantilla.Core.ViewModels.RangoFecha">
+            <summary>
+            Vista de rango fecha
+            </summary>
+        </member>
+        <member name="T:plantilla.Core.ViewModels.RespuestaBooleana">
+            <summary>
+            Clase envoltorio de respuesta para consultas graphql que devuelven un booleano
+            </summary>
+        </member>
+        <member name="P:plantilla.Core.ViewModels.RespuestaBooleana.Respuesta">
+            <summary>
+            Campo respuesta de tipo booleano
+            </summary>
+        </member>
+        <member name="T:plantilla.Core.ViewModels.RespuestaListaString">
+            <summary>
+            Clase envoltorio de respuesta para consultas graphql que devuelven un booleano
+            </summary>
+        </member>
+        <member name="P:plantilla.Core.ViewModels.RespuestaListaString.Respuesta">
+            <summary>
+            Campo respuesta de tipo booleano
+            </summary>
+        </member>
+        <member name="T:plantilla.Core.ViewModels.RespuestaString">
+            <summary>
+            Clase envoltorio de respuesta para consultas graphql que devuelven un booleano
+            </summary>
+        </member>
+        <member name="P:plantilla.Core.ViewModels.RespuestaString.Respuesta">
+            <summary>
+            Campo respuesta de tipo booleano
+            </summary>
+        </member>
+        <member name="T:plantilla.Core.ViewModels.RespuestaToken">
+            <summary>
+            Clase envoltorio de respuesta para consultas graphql que devuelven un Cliente
+            </summary>
+        </member>
+        <member name="T:plantilla.Core.ViewModels.ValoresFiltro">
+            <summary>
+            Vista de valores filtro
+            </summary>
+        </member>
+    </members>
+</doc>
